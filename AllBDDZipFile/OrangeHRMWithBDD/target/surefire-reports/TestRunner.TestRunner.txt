@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.813 sec <<< FAILURE!
+Test Login Functionality(Test the Orange HRM Application)  Time elapsed: 0.209 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user open a orange hrm url' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user open a orange hrm url")
+public void user_open_a_orange_hrm_url() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter valid username and valid password")
+public void user_enter_valid_username_and_valid_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user on home page and valid home page title")
+public void user_on_home_page_and_valid_home_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
